@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1400px;
+    height: 100vh;
+    background-color: azure;
+    display: grid;
+    place-items: center;
+}
+.main{
+    max-width: 800px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    box-shadow: 5px 4px 3px rgb(211, 205, 245);
+    max-height: 100%;
+    padding: 30px;
+}
+.mainful {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 4px;
+}
+.main .input [type='text' i] {
+    width: 226px;
+    height: 46px;
+    margin-top: 32px;
+    margin-left: 35px;
+    text-align: center;
+    border-radius: 20px;
+}
+.btn {
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: coral;
+    width: 129px;
+    padding: 13px;
+    margin-left: 212px;
+    color: #fff;
+}
+.btn:hover{
+    background-color: cornflowerblue;
+    color: black;
+}
+.total {
+    background-color: salmon;
+    width: 323px;
+    height: 65px;
+    text-align: center;
+    margin-left: 114px;
+    margin-top: 15px;
+    font-size: 21px;
+    padding: 17px;
+}
+
+.total input {
+    width: 91px;
+    height: 32px;
+}
+.total span{
+
+    color:#fff;
+}
+
+@media screen and (max-width: 500px) {
+    .container{
+        width: 400px;
+        height: 100vh;
+    background-color: azure;
+    display: grid;
+    place-items: center;
+    }
+    .main{
+        max-width: 300px;
+        background-color: blueviolet;
+        border-radius: 10px;
+        box-shadow: 5px 4px 3px rgb(211, 205, 245);
+        max-height: 100%;
+        padding: 30px;
+    }
+    .mainful {
+        text-align: center;
+        font-size: 9px;
+        color: #fff;
+        padding: 0px;
+        margin-left: 34px;
+        margin-bottom: 4px;
+    }
+    .main .input [type='text' i] {
+        width: 164px;
+        height: 27px;
+        margin-top: 9px;
+        margin-left: 37px;
+        text-align: center;
+        border-radius: 20px;
+    }
+    .btn {
+        text-align: center;
+        margin-top: 19px;
+        border-radius: 13px;
+        background-color: coral;
+        width: 75px;
+        padding: 6px;
+        margin-left: 83px;
+        color: #fff;
+    }
+    .btn:hover{
+        background-color: cornflowerblue;
+        color: black;
+    }
+    .total {
+        background-color: salmon;
+        width: 222px;
+        height: 65px;
+        text-align: center;
+        margin-left: 12px;
+        margin-top: 8px;
+        font-size: 14px;
+        padding: 16px;
+    }
+    
+    input {
+        width: 87px;
+        height: 27px;
+    }
+.total span{
+    color: #fff;
+    }
+}
