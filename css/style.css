@@ -26,12 +26,14 @@
     margin-bottom: 4px;
 }
 .main .input [type='text' i] {
+    outline: none;
     width: 226px;
     height: 46px;
     margin-top: 32px;
     margin-left: 35px;
     text-align: center;
     border-radius: 20px;
+    
 }
 .btn {
     text-align: center;
@@ -42,6 +44,8 @@
     padding: 13px;
     margin-left: 212px;
     color: #fff;
+    cursor: pointer;
+    transition: 1s all;
 }
 .btn:hover{
     background-color: cornflowerblue;
@@ -61,6 +65,7 @@
 .total input {
     width: 91px;
     height: 32px;
+    outline: none;
 }
 .total span{
 
@@ -107,6 +112,8 @@
         width: 75px;
         padding: 6px;
         margin-left: 83px;
+        cursor: pointer;
+        
         color: #fff;
     }
     .btn:hover{
@@ -130,5 +137,6 @@
     }
 .total span{
     color: #fff;
+    cursor: pointer;
     }
 }
