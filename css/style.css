@@ -113,8 +113,9 @@
         padding: 6px;
         margin-left: 83px;
         cursor: pointer;
-        
+        outline: none;
         color: #fff;
+        transition: 1s all;
     }
     .btn:hover{
         background-color: cornflowerblue;
